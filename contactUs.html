@@ -2,6 +2,30 @@
 <html>
     <head>
         <title>Contact us</title>
+        <style>
+            label 
+            {
+                color: deeppink;
+                font-size: x-large;
+            }
+            input{
+                width: 400px;
+                height: 25px;
+                border-radius: 10px;
+                border: 1px solid burlywood;
+                color: blue;
+            }
+            input [type="text"]
+            {
+                text-transform: capitalize;
+            }
+            input [type="email"]{
+                color: darkmagenta;
+            }
+            #submit:hover{
+                background-color: #1eff00;
+            }
+        </style>
     </head>
     <body>
         <h2>Contact Us</h2>
@@ -27,7 +51,7 @@
             </tr>
             <tr>
               <td>
-                  <button type="submit">Submit</button></td>
+                  <button type="submit" id="submit">Submit</button></td>
                   <td><button type="reset">Clear</button>
               </td>
              </tr>
